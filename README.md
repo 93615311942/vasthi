@@ -1,1 +1,26 @@
 # vasthi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Popup Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Trigger Button -->
+    <button id="openModalBtn">Open Modal</button>
+
+    <!-- Modal Structure -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Welcome to the Dynamic Popup!</h2>
+            <p>This is a simple modal implemented with HTML, CSS, and JavaScript.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
