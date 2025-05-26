@@ -1,22 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Popup Example</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popup Modal Example</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>ALERT YOU ARE IN THE WORINGE WEB SITE!</h2>
-            <p>YOU ARE HACKED.</p>
-        </div>
-    </div>
+  <h2>Click the button to open the modal</h2>
 
-    <script src="script.js"></script>
+  <!-- Trigger/Open The Modal -->
+  <a href="#modal" class="open-modal">Open Modal</a>
+
+  <!-- The Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <a href="#" class="close-modal">×</a>
+      <h2>Welcome!</h2>
+      <p>You are Hacked.</p>
+    </div>
+  </div>
+
 </body>
 </html>
