@@ -3,22 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Popup Modal Example</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>HTML Only Popup Modal</title>
 </head>
 <body>
 
-  <h2>Click the button to open the modal</h2>
 
   <!-- Trigger/Open The Modal -->
-  <a href="#modal" class="open-modal">Open Modal</a>
+  <a href="#popup1">Open Modal</a>
 
   <!-- The Modal -->
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <a href="#" class="close-modal">×</a>
+  <div id="popup1" class="overlay">
+    <div class="popup">
       <h2>Welcome!</h2>
       <p>You are Hacked.</p>
+      <a class="close" href="#">&times;</a>
     </div>
   </div>
 
